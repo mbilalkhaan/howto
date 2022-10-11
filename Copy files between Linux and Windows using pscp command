@@ -1,0 +1,12 @@
+Make sure you can access your Linux mahcine via SSH.
+
+On Windows Machine, browse to the link below and download MSI version of Putty 
+https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+
+Install Putty on your Windows machine
+
+Open Powershell as admin set path to the file locaiton where putty files are insalled ( Normally C:\Program Files\PuTTY)
+CD "C:\Program Files\PuTTY"
+then run pscp command similar to: 
+.\pscp.exe mbilal@192.168.2.52:/tmp/File_to_Copy.txt C:\Temp\
+Where 192.168.2.52:/tmp/File_to_Copy.txt (Linux) is souce and C:\Temp is (windows) destination.
